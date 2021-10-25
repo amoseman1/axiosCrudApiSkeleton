@@ -6,6 +6,7 @@ import Users from './components/Users';
 
 function App() {
   return (
+    // encompass everything in Router tags
     <Router>
       <div className="App">
         <header>
@@ -28,6 +29,7 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
+              {/* //encompass Route paths in Switch tags */}
               <Switch>
                 <Route exact path='/' component={CreateUser} />
                 <Route path="/create-user" component={CreateUser} />
