@@ -10,7 +10,7 @@ function CreateUser() {
     function handleChange(e) {
         const { name, value } = e.target;
         setFormObject({ ...formObject, [name]: value })
-        console.log(e.target.value)
+        // console.log(e.target.value)
     };
 
 
